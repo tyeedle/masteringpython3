@@ -23,3 +23,16 @@ def return_function(list_,excludeindex):
     
 returned_ = return_function(b3,1)
 print(b3[1] + returned_)
+
+
+x = np.array([[5,6,7,8,9]])
+y = np.array([[10,11,12,13,14]])
+
+
+
+z = np.concatenate((x,y),axis=0)
+
+for i in range(len(z)):
+    dimensionsZ_ = [f'{len(z)}x{len(z[i])}']
+    print(dimensionsZ_[0])
+print(z)
