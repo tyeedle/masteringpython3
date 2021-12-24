@@ -8,7 +8,7 @@ for i in range(len(a)):
     
 
     dimensions = [f"{len(a)}x{len(a[i])}"]
-
+ 
 a2 = np.zeros(len(a))
 
 
@@ -34,3 +34,4 @@ z = np.concatenate((x,y),axis=0)
 print(z,)
 for i in range(len(z)):
     dimensionsZ_ = [f'{len(z)}x{len(z[i])}']
+print(f'dimensions : {dimensionsZ_[0]}')
