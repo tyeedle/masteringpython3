@@ -3,11 +3,18 @@ import numpy as np
 a = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]])
 
 
-for i in range(len(a)):
+def return_a():
+    for i,v in enumerate(a):
     
+        dimensions = [f"{len(a)}x{len(a[i])}"]
+    return [a,dimensions]
 
-    dimensions = [f"{len(a)}x{len(a[i])}"]
- 
+
+a_returned = return_a()[0]
+a_returned_dimensions = return_a()[1]
+print(a_returned)
+print(a_returned_dimensions)
+
 a2 = np.zeros(len(a))
 
 
@@ -30,7 +37,7 @@ y = np.array([[10,11,12,13,14]])
 
 
 z = np.concatenate((x,y),axis=0)
-print(z,)
+
 for i in range(len(z)):
     dimensionsZ_ = [f'{len(z)}x{len(z[i])}']
-print(f'dimensions : {dimensionsZ_[0]}')
+
