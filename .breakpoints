@@ -4,7 +4,15 @@
       {
         "id": "ebe89f5f-226c-4c41-a387-7cda29490041",
         "line": 1,
-        "version": 741,
+        "version": 1024,
+        "index": 0
+      }
+    ],
+    "file4.py": [
+      {
+        "id": "0ce9fcbe-a11f-4f0d-a6fd-ec7aa7787194",
+        "line": 1,
+        "version": 564,
         "index": 0
       }
     ]
