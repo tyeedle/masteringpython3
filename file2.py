@@ -1,7 +1,7 @@
 import time
 import random
 array_ = ['log1','log2','error1']
-txt_ = 'newfile.txt'
+txt_ = 'txtFiles/newfile.txt'
 
 def writeToTxtFile(txt_file,text):
     with open(txt_file,'w') as f:
