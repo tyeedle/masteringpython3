@@ -38,6 +38,10 @@ y = np.array([[10,11,12,13,14]])
 
 z = np.concatenate((x,y),axis=0)
 
-for i in range(len(z)):
-    dimensionsZ_ = [f'{len(z)}x{len(z[i])}']
+for i,v in enumerate(z):
+    
+    dimensionsZ_ = [f'{len(z)}x{len(v)}']
 
+print(z)
+
+print(dimensionsZ_)
