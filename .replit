@@ -1,5 +1,5 @@
 language = "python3"
-run = "python3 file5.py"
+run = "python3 file6.py"
 
 [languages.python3]
 
