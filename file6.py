@@ -39,6 +39,5 @@ l = [1,2,3,5,6,5,7]
 
 testing = linear_search_test()
 testing.test(5,l,linear_search=True)
-            
-        
+
     
